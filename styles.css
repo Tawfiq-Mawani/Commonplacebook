@@ -1,0 +1,222 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+a {
+  text-decoration: none;
+}
+
+.active {
+  filter: blur(20px);
+  pointer-events: none;
+  user-select: none;
+  transition: 0.3s;
+}
+
+.popup {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+  border-radius: 10px;
+  padding: 3rem;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
+    rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
+    rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+  visibility: hidden;
+}
+
+.open_view_title {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.color_theme{
+    display: block;
+    width: 100%;
+    height: 0.3rem;
+    background-color: red;
+    margin: 1rem 0;
+}
+
+.close{
+    width: 5rem;
+    height: auto;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+}
+
+#name {
+  font-family: "Satisfy", cursive;
+}
+
+#heading_section {
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+#heading_title {
+  color: rgb(0, 0, 0);
+}
+
+.line {
+  width: 0.11rem;
+  height: 2.5rem;
+  background-color: rgb(0, 0, 0);
+  margin-left: 1.25rem;
+}
+
+.rm-mg {
+  margin: 0.3rem;
+}
+
+#name {
+  margin-left: 1.25rem;
+  font-size: 1.2rem;
+  color: rgb(0, 0, 0);
+}
+
+.horizontal_line {
+  width: 100%;
+  display: block;
+  background-color: rgb(224, 224, 224);
+  height: 0.1rem;
+}
+
+#weeks_section {
+  display: flex;
+  width: 1200px;
+  margin: 7rem auto 0rem auto;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.week {
+  width: 12rem;
+  height: 15rem;
+  border-radius: 0.625rem;
+  margin-bottom: 2rem;
+}
+
+.week:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  transition: 400ms ease-in-out;
+}
+
+.week_title {
+  color: rgb(0, 0, 0);
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.open_view_button {
+  width: 75%;
+  height: auto;
+  padding: 0.5rem;
+  display: block;
+  margin: auto;
+  margin-top: 1rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+}
+
+.color_green {
+  background-color: rgb(0, 255, 110);
+}
+
+.color_orange {
+  background-color: rgb(255, 140, 0);
+}
+
+.color_purple {
+  background-color: rgb(166, 0, 255);
+}
+
+.color_dark_pink {
+  background-color: rgb(255, 0, 89);
+}
+
+.color_blue {
+  background-color: rgb(0, 191, 255);
+}
+
+.color_yellow {
+  background-color: rgb(255, 217, 0);
+}
+
+.color_dark_blue {
+  background-color: rgb(0, 106, 255);
+}
+
+.color_dark_green {
+  background-color: rgb(4, 255, 0);
+}
+
+@media only screen and (min-width: 521px) and (max-width: 1200px) {
+  .container {
+    width: 100%;
+  }
+
+  #heading_section {
+    width: 90%;
+    margin: auto;
+  }
+
+  #weeks_section {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 520px) {
+  .container {
+    width: 100%;
+  }
+
+  #heading_section {
+    width: 90%;
+    margin: auto;
+  }
+
+  #weeks_section {
+    width: 100%;
+  }
+
+  .popup {
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    border-radius: 10px;
+    padding: 3rem;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
+      rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
+      rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    visibility: hidden;
+  }
+}
