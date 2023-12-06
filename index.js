@@ -94,9 +94,9 @@ const shortInfo={
   "Jallaludin Rumi (4)": "This quote led me to think about how individuals dedicate their time to riding the horse, symbolizing work or their daily routines, yet tend to overlook the underlying motivation that leads their actions or in other words, keeps them moving.",
   "Ali Ibn Abi Talib (2)": "I included this quote in my notebook as a reminder of the significance of mindful speech. The quote suggests that a fool lets the tongue dictate thoughts without thinking or having a conscious, exerting control over the mind. In contrast, the wise person allows the mind to guide speech, ensuring alignment with conscious intent.",
   "Jallaludin Rumi (5)": "I included this quote in my commonplace notebook for its interesting use of symbols and metaphors. The metaphorical idea of a wound representing pain or a traumatic event, coupled with light symbolizing growth and vitality, conveys the notion that challenges and hardships, a reference to wounds, can be sources of strength and growth.",
-  "Maya Angelou": "",
-  "Maya Angelou (2)": "",
-  "Sir Edmund Hillary": ""
+  "Maya Angelou": `I have added this line because of the use of repetition in the line. Maya Angelou employs repetition in these lines to highlight the significance of the word’s "people" and "forget." The repetitive use of these terms not only emphasizes their importance but also creates a rhythmic flow, captivating readers and prompting them to delve deeper into the text.`,
+  "Maya Angelou (2)": "I chose to include this line in my book because of Maya Angelou's unique portrayal of personal development. Initially, she openly acknowledges the possibility of change due to unforeseen events, a different approach from the typical motivational narrative that stands for unwavering discipline and resistance to external influences. However, Angelou goes on to claim that even in the face of change, she won't be diminished by these changes. This signals to readers that the change she experiences is not necessarily negative or devaluing.",
+  "Sir Edmund Hillary": `I added this line to my commonplace book because of its effective use of allusion. Sir Edmund Hillary employs the common phrase of "conquering the mountain," a widely recognized metaphor for achieving something difficult. What makes this particularly noteworthy is Hillary's insight that the true difficulty lies not in the challenge of the task itself, but rather in overcoming the mindset that tells us we cannot attain our goals.`
 }
 
 const colors={
